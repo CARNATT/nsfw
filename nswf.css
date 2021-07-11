@@ -1,0 +1,55 @@
+@media screen and (min-width: 300px) and (max-width: 800px) {
+
+body {margin: 0; padding: 0;
+/* background: url('background.jpg')round; */ background: #17224D;}
+html {scroll-behavior: smooth;}
+input {display: none;}
+
+
+a {text-decoration: none; background: transparent;}
+.inició_Principal {margin: 10px 10px; }
+.Texto_Principal {font-size: 40px; color: #fff; padding: 20px 0px;}
+.perfiles_Logos {width: 90px; border-radius: 100px;}
+.Perfiles_Principal_Dessert {background: #ff1554; border: solid #fff 2px;
+padding: 10px; display: flex; margin: 10px auto;}
+
+
+
+.Perfiles_Principal {border: solid #fff 2px; padding: 10px; 
+display: flex; margin: 10px auto;}
+.Text_Principal_D {color: #fff; padding: 0px 0px 0px 30px;
+
+justify-content: center;
+align-content: center;
+}
+
+
+.text_ { font-weight: bolder;
+}
+
+
+
+/* ---- IMÁGENES DE COLUMNA ---- */
+.ocultar {display: none;}
+.imag_col {width: 350px; margin: 10px 0px;}
+.columna {
+background: red; display: flex;
+display: grid; justify-content: center; align-content: center;}
+/* ---- IMÁGENES DE COLUMNA ---- */
+
+/* ---💖💖💖💖💖💗💗--💗--💗💗💖💖💖💖💖--- */
+
+
+
+
+
+
+
+
+
+/* MENÚ */
+
+
+/* MENÚ */
+
+}
