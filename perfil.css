@@ -127,19 +127,18 @@ transition: width 4s, height 4s;
 }
 
 
-.in {width: 230px; /* height: 200px; object-fit: cover; */ margin-bottom: 40px; border-radius: 15px; cursor: zoom-in; background-color: lightgray;}
+.in {width: 200px; /* height: 200px; object-fit: cover; */
+border-radius: 15px; cursor: zoom-in; margin: 10px auto;
+background-color: lightgray;}
 
 .GREE {/* justify-content: center; display: grid; background: green; 
 			grid-template-columns: repeat(auto-fill, 100px);
 			grid-template-rows: masonry; */
-			margin: 0 auto;
-			
-			
-			
-			
+			margin: 0 auto;			
 }
 
-
+.in:hover {
+				filter: opacity(0.9);}
 .Ocultar_Dibujos {
   width: 0px;height: 0px;
   background: red;overflow: hidden;
