@@ -1,64 +1,191 @@
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
 
-body {margin: 0px; padding: 0px; color: #fff; 
-
-/* display: flex; justify-content: center; */
-
-
-background: #17224D;}
+body {margin: 0px; padding: 0px; color: #fff; background: #17224D;}
 html {scroll-behavior: smooth;} input {display: none;}
-.Atras {display: inline-block;}
+.TODOS_LOS_ELEMEMTOS {overflow: hidden;}
 
+/* ------- MENÚ --------------- */
 a {text-decoration: none;} a::selection {background: transparent;}
 .M {padding: 0px 0px 30px 0px;}
-.Bts_A { padding: 20px; justify-content: space-around; display: flex;
-align-content: center;}
-
-.BTS_ {background:  transparent;}
-.BTS_ {padding: 5px 10px;background: transparent;
-border-radius: 30px;border: solid 2px #fff;}
-
-.ocultar {display: none;}
-#Ocultar:checked + .ocultar {display: block;}
+/*  */
 
 
-.OK_PERFIL {background: #ff1554;padding: 10px 0px 30px 0px; width: px;
+
+/* .ajuste_ocultar {
+background: #fff;overflow: hidden;
+top: 0px;
+position: absolute; opacity: .5;
+color: #000;}
+#Ocultar_C:checked + .ajuste_ocultar {
+background: #fff; position: absolute;overflow: hidden; width: 50%;
+height: 50%; top: 0px; right: 0px; opacity: .5;color: #000;
+transition: height 3s, width 3s;}
+ */
+
+/*  */
+.Elem_Ajus {display: grid;padding: 5px 0px 5px 10px;}
+.listado_Ajuste{padding: 30px 0px 0px 0px;}
+/* ------- MENÚ --------------- */
+
+/* ------+💕 PERFIL COMPLETO 💕+-------------- */
+.OK_PERFIL_B {background: #ff1554;
+overflow: hidden;white-space: normal; border-radius: 60px 60px;}
+
+
+.OK_PERFIL {background: #ff1554;padding: 10px 0px 30px 0px; width: 
+px;position: relative; margin: 0px 0px 5px 0px;
 overflow: hidden;white-space: normal; border-radius: 0px 0px 60px 60px;}
-				
-				
-				
-				
+.LOGO_IMAG {display: flex;justify-content: center;align-content: center;
+text-align: center;
+
+}
+/* ------+💕 PERFIL COMPLETO 💕+-------------- */
+
+
+.ajuste_ocultar {max-width: 400px;  padding: 20px; 
+background: #b78; justify-content: center; 
+display: block; position: absolute; 
+border-radius: 30px 0px 0px 30px; top: 0; right: -170px;
+transition: right 2s;animation: fluido 15s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+
+#Ocultar_C:checked + .ajuste_ocultar {
+max-width: 400px; 
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; 
+border-radius: 30px 0px 0px 30px; top: 0; right: -5px;
+transition: right 2s;
+animation: fluido 15s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+  
+  
+
+
+
+
+
+	
+	
+.Categ_Dib_Normal {padding: 10px; background: yellow; color: #000;}
+
+
+
+
+
+/* -----💞💕💕💞- TEXTO -💞💕💕💞------- */
 .Central_Texto::selection {background: transparent;}
 .Central_Texto {margin: 10px; text-align: center;}
 .text::selection {background: transparent;}
 .text {color: #8fc562;}
 .Uno {font-size: 50px;margin: 20px; color: #fff;}
 .Uno_ {font-size: 35px;margin: 20px; color: #fff;}
-
 .Uno_::selection {background: red;}
-
 .Perfiles_Logo::selection {background: transparent;}
 .Perfiles_Logo {width: 140px;border-radius: 100px;padding: 4px;
 animation: fluido 15s ease-in-out infinite;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 1000px;
-  /* 
-  webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent; */
-
-}
-@keyframes fluido {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+ @keyframes fluido {
     0% { background-position: 0 50% }
     50% { background-position: 100% 50% }
-    100% { background-position: 0 50% }
+    100% { background-position: 0 50% }}
+
+
+
+
+/* -----💞💕💕💞- TEXTO -💞💕💕💞------- */
+
+
+
+
+
+
+
+/* --------------💞 BOTONES 💞---------------- */
+.BTS_ {padding: 5px 10px;background: transparent; border-radius: 30px;
+			border: solid 2px #fff;}
+.Bts_A { padding: 20px; justify-content: space-around; display: flex;
+align-content: center;}
+.BOTONES_DIBUJOS_NSWF { 
+align-content: center; justify-content: center; align-content: center;
+
+
+}
+/* --------------💞 BOTONES 💞---------------- */
+
+
+
+
+
+.Oculta_Datos_Contraseña {width: 0px;height: 0px;
+  background: red;overflow: hidden;
+  transition: width 4s, height 4s;}
+  
+#Contraseña:checked + .Oculta_Datos_Contraseña {
+width: 100%;height: 500px; overflow: scroll;scroll-behavior: smooth;
+transition: width 4s, height 4s;
 }
 
 
+.in {width: 230px; /* height: 200px; object-fit: cover; */ margin-bottom: 40px; border-radius: 15px; cursor: zoom-in; background-color: lightgray;}
 
-.LOGO_IMAG {display: flex;justify-content: center;align-content: center;
-text-align: center;}
+.GREE {/* justify-content: center; display: grid; background: green; 
+			grid-template-columns: repeat(auto-fill, 100px);
+			grid-template-rows: masonry; */
+			margin: 0 auto;
+			
+			
+			
+			
+}
+
+
+.Ocultar_Dibujos {
+  width: 0px;height: 0px;
+  background: red;overflow: hidden;
+  align-content: center;text-align: center;
+  justify-content: center;transition: width 4s, height 4s;}
+  
+#Ocultar_A:checked + .Ocultar_Dibujos {
+width: 70%;height: 100px;overflow: hidden;}
+	
+	
+.Categ_Dib_Normal {padding: 10px; background: yellow; color: #000;}
+	
+	
+.Ocultar_Dibujos_NSWF {width: 0px;height: 0px;
+  background: red;overflow: hidden;
+  align-content: center;text-align: center;
+  justify-content: center;transition: width 4s, height 4s;}
+  
+#Ocultar_B:checked + .Ocultar_Dibujos_NSWF {
+width: 100%;height: 100px;overflow: hidden;}
+	
+	
+	
+	
+				
+				
+
+
+  /*  webkit-background-clip: text;background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  
+
+
+
+
+
+
+
+				
+		
+
+
+
+
+
+
 
 
 }
