@@ -1,0 +1,10 @@
+
+body {background: #4f2e2e;}
+
+.fórmula {
+				background: red; padding: 10px; border-radius: 30px;
+				display: grid;
+}
+
+.U {width: 50%;}
+button {width: 30%; }
